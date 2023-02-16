@@ -1,6 +1,6 @@
 abstract class Race {
-  private _name = String();
-  private _dexterity = Number();
+  protected _name = String();
+  protected _dexterity = Number();
 
   constructor(name: string, dexterity: number) {
     this._name = name;
